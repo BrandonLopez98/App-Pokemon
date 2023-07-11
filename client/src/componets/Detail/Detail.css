@@ -1,0 +1,8 @@
+.types{
+    display: flex;
+    justify-content: space-around;
+}
+
+.imagen{
+    height: 25vw;
+}

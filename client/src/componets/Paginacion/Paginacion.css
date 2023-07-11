@@ -1,0 +1,23 @@
+.paginado{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: start;
+    padding: 0.5vw;
+    border-radius: 10px;
+}
+
+.number button{
+    border-radius: 5px;
+    padding: 0.5vw;
+    border: 1px solid black;
+    margin-right: 0.2vw;
+    color: #000047;
+}
+
+.number button:focus{
+  background-color: #000047;
+  color: white;
+}
+
+

@@ -1,0 +1,80 @@
+.homeBody {
+    margin: 0;
+    display: flex;
+    margin-top: 3vw;
+  }
+
+  .homeBody .selectores {
+    padding: 2vw;
+    text-align: start;
+    margin-left: 2vw;
+    height: 48vh;
+    position: sticky;
+    top: 7vw;
+    z-index: 1;
+    background: rgb(255, 255, 255,0.5);
+    border-radius: 20px;
+    color: #000047;
+    width: 15vw;
+  }
+
+  .homeBody select {
+    border-radius: 20px;
+    padding: 1vw;
+    margin-top: 1.5vw;
+    width: 15vw;
+    color: #000047;
+  }
+  
+  .selectores select {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath d='M1 4h10L6 9 1 4z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 8px center;
+    appearance: none;
+  }   
+
+  .selectores p{
+    text-align: center;
+    font-weight: 600;
+  }   
+
+  .cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: auto;
+    margin: 0 auto;
+    min-height: 400px;
+    justify-items: center;
+  }
+
+  .loading{
+    margin-left: 20vw;
+    background: rgb(255, 255, 255,0.5);
+    padding: 5vw;
+    border-radius: 20px;
+  }
+
+  .errorContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+  }
+
+  .errorTitle {
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: white;
+    text-shadow: 1px 1px gray;
+  }
+  
+  .errorText {
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px gray;
+  }

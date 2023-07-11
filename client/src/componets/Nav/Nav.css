@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300&display=swap');
+.nav{
+  display: flex;
+  justify-content: space-around;
+  width: 50vw;
+  margin: 0 auto;
+  margin-top: 1.5vw;
+  font-family: 'Lexend', sans-serif;
+}
+
+.nav button{
+  background-color: transparent;
+  font-weight: 300;
+  color: #f2f2f2;
+  border-radius: 15px;
+  padding: 0.6vw;
+  font-size: 1.2vw;
+  border: 2px solid #f2f2f2;
+}
+
+.nav button:hover{
+  background-color: #f2f2f2;
+  color: #000047;
+  transform: scale(1.15);
+}

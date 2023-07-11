@@ -1,0 +1,32 @@
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }  
+    50% {
+      transform: scale(2);
+    }  
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .giro {    
+    animation: 1.5s giro infinite;
+    backface-visibility: visible; 
+  }
+  
+  @keyframes giro {    
+    40% {      
+      transform: perspective(300px) translateZ(120px) rotateY(170deg);      
+    }    
+    50% {      
+      transform: perspective(300px) translateZ(120px) rotateY(190deg);      
+    }    
+    80% {      
+      transform: perspective(300px) translateZ(0px) rotateY(360deg);      
+    }    
+    100% {      
+      transform: rotateY(360deg);      
+    }    
+  }
+  
